@@ -12,6 +12,9 @@ namespace GoogleMapsApi.Entities.Places.Response
 		[DataMember(Name = "name")]
 		public string Name { get; set; }
 
+        [DataMember(Name = "geometry")]
+        public Geometry Geometry { get; set; }
+
 		[DataMember(Name = "rating")]
 		public double Rating { get; set; }
 
@@ -22,7 +25,7 @@ namespace GoogleMapsApi.Entities.Places.Response
 		public string ID { get; set; }
 
 		[DataMember(Name = "reference")]
-		public string Reference { get; set; }	
+		public string Reference { get; set; }
 
 		[DataMember(Name = "vicinity")]
 		public string Vicinity { get; set; }
