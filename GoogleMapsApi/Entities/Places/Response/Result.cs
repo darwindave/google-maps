@@ -30,6 +30,9 @@ namespace GoogleMapsApi.Entities.Places.Response
 		[DataMember(Name = "vicinity")]
 		public string Vicinity { get; set; }
 
+        [DataMember(Name = "formatted_address")]
+        public string FormattedAddress { get; set; }
+
 		[DataMember(Name = "types")]
 		public string[] Types { get; set; }
 	}
